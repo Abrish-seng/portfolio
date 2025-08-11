@@ -28,12 +28,12 @@ const Projects = () => {
     {
       id: 2,
       title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce application with user authentication, product management, shopping cart, and payment integration using React and Node.js.',
+      description: 'Full-stack e-commerce application with  product management, shopping cart, and about using React and Node.js.',
       image: '/api/placeholder/400/250',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
+      technologies: ['React', 'tailwind css', 'Framer-motion', 'TypeScript'],
       icons: [FaReact, FaJs, SiMongodb, SiExpress],
-      github: 'https://github.com/yourusername/ecommerce-platform',
-      live: 'https://your-ecommerce-demo.com',
+      github: 'https://github.com/Abrish-seng/eCommerce-Dashboard',
+      live: 'https://ecomorce-dashboard.netlify.app/',
       category: 'web'
     },
     {
