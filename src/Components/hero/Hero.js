@@ -95,7 +95,7 @@ const Hero = () => {
               <div className="profile-circle">
                 <img src={myimage} className='profile-img' 
                   loading="lazy"
-                style={{width:200, height:200}}  alt="Profile" />
+                style={{width:300, height:300}}  alt="Profile" />
               </div>
             </div>
           </motion.div>
