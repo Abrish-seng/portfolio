@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { 
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaDatabase,
+  FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython,
   FaGitAlt, FaDocker, FaAws, FaNodeJs
 } from 'react-icons/fa';
 import { SiC, SiTensorflow, SiMongodb, SiExpress } from 'react-icons/si';

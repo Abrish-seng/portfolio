@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaGithub, FaExternalLinkAlt, FaReact, FaPython, FaJs } from 'react-icons/fa';
-import { SiTensorflow, SiMongodb, SiExpress } from 'react-icons/si';
+import { FaGithub, FaExternalLinkAlt, FaReact, FaPython, FaJs, FaCss3Alt } from 'react-icons/fa';
+import { SiTensorflow, SiThreedotjs } from 'react-icons/si';
 import './Projects.css';
 
 const Projects = () => {
@@ -28,12 +28,12 @@ const Projects = () => {
     {
       id: 2,
       title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce application with user authentication, product management, shopping cart, and payment integration using React and Node.js.',
+      description: 'Full-stack e-commerce application with  product management, shopping cart, and about using React and Node.js.',
       image: '/api/placeholder/400/250',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-      icons: [FaReact, FaJs, SiMongodb, SiExpress],
-      github: 'https://github.com/yourusername/ecommerce-platform',
-      live: 'https://your-ecommerce-demo.com',
+      technologies: ['React', 'tailwind css', 'Framer-motion', 'TypeScript'],
+      icons: [FaReact, FaJs, FaCss3Alt, SiThreedotjs],
+      github: 'https://github.com/Abrish-seng/eCommerce-Dashboard',
+      live: 'https://ecomorce-dashboard.netlify.app/',
       category: 'web'
     },
     {
@@ -75,7 +75,7 @@ const Projects = () => {
       description: 'Modern, responsive portfolio website built with React and Framer Motion, featuring smooth animations and professional design.',
       image: '/api/placeholder/400/250',
       technologies: ['React', 'JavaScript', 'CSS3', 'Framer Motion'],
-      icons: [FaReact, FaJs],
+      icons: [FaReact, FaJs, FaCss3Alt, SiThreedotjs],
       github: 'https://github.com/yourusername/portfolio',
       live: 'https://your-portfolio.com',
       category: 'web'
