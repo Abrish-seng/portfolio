@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import './Hero.css';
-
+import myimage from '../../Assets/myimage.jpg';
 const Hero = () => {
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/Abrish-seng', label: 'GitHub' },
@@ -93,7 +93,9 @@ const Hero = () => {
           >
             <div className="profile-placeholder">
               <div className="profile-circle">
-                <span>AG</span>
+                <img src={myimage} className='profile-img' 
+                  loading="lazy"
+                style={{width:200, height:200}}  alt="Profile" />
               </div>
             </div>
           </motion.div>

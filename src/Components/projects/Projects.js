@@ -76,8 +76,8 @@ const Projects = () => {
       image: '/api/placeholder/400/250',
       technologies: ['React', 'JavaScript', 'CSS3', 'Framer Motion'],
       icons: [FaReact, FaJs, FaCss3Alt, SiThreedotjs],
-      github: 'https://github.com/yourusername/portfolio',
-      live: 'https://your-portfolio.com',
+      github: 'https://github.com/Abrish-seng/portfolio',
+      live: 'https://personal-portifilo-12.netlify.app/',
       category: 'web'
     }
   ];
