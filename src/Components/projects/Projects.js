@@ -4,7 +4,9 @@ import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaExternalLinkAlt, FaReact, FaPython, FaJs, FaCss3Alt } from 'react-icons/fa';
 import { SiTensorflow, SiThreedotjs } from 'react-icons/si';
 import './Projects.css';
-
+import ecommerceImage from '../../Assets/ecommerce.JPG';
+import portifiloImage from '../../Assets/portifilo-image.PNG';
+import DataAnalysis from '../../Assets/Fundamentals of Data Science in Precision Medicine and Cloud Computing.png'
 const Projects = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -28,8 +30,8 @@ const Projects = () => {
     {
       id: 2,
       title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce application with  product management, shopping cart, and about using React and Node.js.',
-      image: '/api/placeholder/400/250',
+      description: 'Full-stack e-commerce application with  product management, shopping cart, and about using React and TypeScript. Features responsive design and smooth animations with Framer Motion.',
+      image: ecommerceImage,
       technologies: ['React', 'tailwind css', 'Framer-motion', 'TypeScript'],
       icons: [FaReact, FaJs, FaCss3Alt, SiThreedotjs],
       github: 'https://github.com/Abrish-seng/eCommerce-Dashboard',
@@ -53,16 +55,16 @@ const Projects = () => {
       description: 'Interactive weather dashboard that displays current weather conditions, forecasts, and historical data with beautiful visualizations.',
       image: '/api/placeholder/400/250',
       technologies: ['JavaScript', 'HTML5', 'CSS3', 'API Integration'],
-      icons: [FaJs],
-      github: 'https://github.com/yourusername/weather-dashboard',
-      live: 'https://your-weather-demo.com',
+      icons: [FaJs, FaCss3Alt, FaReact],
+      github: 'https://github.com/Abrish-seng/weather-dashboard',
+      live: 'https://weather-dashboard-1a.netlify.app/',
       category: 'web'
     },
     {
       id: 5,
       title: 'Data Analysis Tool',
       description: 'Python-based data analysis tool for processing large datasets, generating insights, and creating interactive visualizations.',
-      image: '/api/placeholder/400/250',
+      image: DataAnalysis,
       technologies: ['Python', 'Pandas', 'Matplotlib', 'NumPy'],
       icons: [FaPython],
       github: 'https://github.com/yourusername/data-analysis-tool',
@@ -73,7 +75,7 @@ const Projects = () => {
       id: 6,
       title: 'Portfolio Website',
       description: 'Modern, responsive portfolio website built with React and Framer Motion, featuring smooth animations and professional design.',
-      image: '/api/placeholder/400/250',
+      image: portifiloImage,
       technologies: ['React', 'JavaScript', 'CSS3', 'Framer Motion'],
       icons: [FaReact, FaJs, FaCss3Alt, SiThreedotjs],
       github: 'https://github.com/Abrish-seng/portfolio',
