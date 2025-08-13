@@ -7,6 +7,7 @@ import './Projects.css';
 import ecommerceImage from '../../Assets/ecommerce.JPG';
 import portifiloImage from '../../Assets/portifilo-image.PNG';
 import DataAnalysis from '../../Assets/Fundamentals of Data Science in Precision Medicine and Cloud Computing.png'
+import WeatherImage from '../../Assets/weather.JPG';
 const Projects = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -53,7 +54,7 @@ const Projects = () => {
       id: 4,
       title: 'Weather Dashboard',
       description: 'Interactive weather dashboard that displays current weather conditions, forecasts, and historical data with beautiful visualizations.',
-      image: '/api/placeholder/400/250',
+      image: WeatherImage,
       technologies: ['JavaScript', 'HTML5', 'CSS3', 'API Integration'],
       icons: [FaJs, FaCss3Alt, FaReact],
       github: 'https://github.com/Abrish-seng/weather-dashboard',
