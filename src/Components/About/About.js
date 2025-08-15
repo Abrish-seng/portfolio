@@ -14,7 +14,7 @@ const About = () => {
     {
       icon: FaGraduationCap,
       title: 'Software Engineering Graduate',
-      description: 'Completed ALX Africa\'s intensive 1-year Software Engineering Program, mastering modern development practices and technologies.',
+      description: 'I hold an MSc in Software Engineering from Mekelle University and have completed ALX Africa \'s one-year Software Engineering Program.',
     },
     {
       icon: FaCode,
