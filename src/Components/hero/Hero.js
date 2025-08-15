@@ -42,8 +42,8 @@ const Hero = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="hero-description"
             >
-              Graduate from ALX Africa's 1-year Software Engineering Program. 
-              Passionate about creating innovative solutions with modern technologies.
+              I hold an MSc in Software Engineering from Mekelle University and have completed ALX Africa's one-year Software Engineering Program. I am currently working as a lecturer and am passionate 
+              about creating innovative solutions using modern technologies.
             </motion.p>
 
             <motion.div
