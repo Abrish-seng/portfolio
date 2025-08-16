@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaExternalLinkAlt, FaReact, FaPython, FaJs, FaCss3Alt } from 'react-icons/fa';
-import { SiTensorflow, SiThreedotjs } from 'react-icons/si';
+import {  SiThreedotjs } from 'react-icons/si';
 import './Projects.css';
 import ecommerceImage from '../../Assets/ecommerce.JPG';
 import portifiloImage from '../../Assets/portifilo-image.PNG';
 import DataAnalysis from '../../Assets/Fundamentals of Data Science in Precision Medicine and Cloud Computing.png'
 import WeatherImage from '../../Assets/weather.JPG';
+import AlxAfricaCertificate from '../../Assets/AlxAfricaCertificate.png'; 
 const Projects = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -19,11 +20,11 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Tomato Disease Classification',
-      description: 'Machine learning model using TensorFlow and ResNet50 to classify tomato plant diseases with 95% accuracy. Features Grad-CAM++ visualization for model interpretability.',
-      image: '/api/placeholder/400/250',
-      technologies: ['Python', 'TensorFlow', 'React', 'Grad-CAM++'],
-      icons: [FaPython, SiTensorflow, FaReact],
+      title: 'Alx Africa Certificate',
+      description: 'certificate of completion for the ALX Africa Software Engineering Program, showcasing my skills in front-end development and software engineering principles.',
+      image: AlxAfricaCertificate,
+      technologies: ['Python', 'Github ', 'React', 'devops'],
+      icons: [FaPython, FaGithub, FaReact],
       github: 'https://github.com/yourusername/tomato-disease-classifier',
       live: 'https://your-project-demo.com',
       category: 'ml'
