@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaGithub, FaExternalLinkAlt, FaReact, FaPython, FaJs, FaCss3Alt, FaRegGrinSquintTears } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaReact, FaPython, FaJs, FaCss3Alt } from 'react-icons/fa';
 import {  SiThreedotjs } from 'react-icons/si';
 import './Projects.css';
 import ecommerceImage from '../../Assets/ecommerce.JPG';
