@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaGithub, FaExternalLinkAlt, FaReact, FaPython, FaJs, FaCss3Alt } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaReact, FaPython, FaJs, FaCss3Alt, FaRegGrinSquintTears } from 'react-icons/fa';
 import {  SiThreedotjs } from 'react-icons/si';
 import './Projects.css';
 import ecommerceImage from '../../Assets/ecommerce.JPG';
@@ -9,6 +9,7 @@ import portifiloImage from '../../Assets/portifilo-image.PNG';
 import DataAnalysis from '../../Assets/Fundamentals of Data Science in Precision Medicine and Cloud Computing.png'
 import WeatherImage from '../../Assets/weather.JPG';
 import AlxAfricaCertificate from '../../Assets/AlxAfricaCertificate.png'; 
+import FruitImage from '../../Assets/fruit.JPG';
 const Projects = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -42,13 +43,13 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Task Management App',
-      description: 'Real-time task management application with drag-and-drop functionality, team collaboration features, and progress tracking.',
-      image: '/api/placeholder/400/250',
+      title: 'Fruit Dashboard',
+      description: 'A responsive dashboard application that visualizes fruit sales data using interactive charts and graphs. Built with React and Chart.js for dynamic data representation.',
+      image: FruitImage,
       technologies: ['React', 'JavaScript', 'CSS3', 'HTML5'],
       icons: [FaReact, FaJs],
-      github: 'https://github.com/yourusername/task-manager',
-      live: 'https://your-task-manager-demo.com',
+      github: 'https://github.com/Abrish-seng/fruite-dashboard',
+      live: 'https://fruit-dashboard.netlify.app/',
       category: 'web'
     },
     {
